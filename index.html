@@ -6,8 +6,13 @@
 <head>
 	<title>Twitter Shenanigans</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<script type="text/javascript" src="index.js"></script>
 </head>
+<script type= "module">
+	function generateTweet()
+	{
+		document.getElementById("tweet").value = <?php echo exec("whoami");?>;
+	}
+</script>
 <body>
 	<div id="main" style="display: none; visibility: hidden;">
 		<h2>Trump's Twitter Turmoil</h2>
@@ -19,7 +24,7 @@
 	</div>
 
 	<div id="generateButtons">
-		<button type="submit" onclick="generateTweet();">Generate Tweet</button>
+		<button type="submit" onclick="generateTweet();">Generate New Tweet</button>
 	</div>
 
 </body>
