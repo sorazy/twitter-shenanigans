@@ -1,4 +1,5 @@
 # twitter-shenanigans
+
 ## Inspiration
 Whether you like or hate Donald Trump, we all have to admit that he's revolutionized the way presidents and presidential candidates interact people. With thousands of parody accounts online and Trump's unique tweeting abilities, the line between parody and reality starts to blur and confusion of what's real and what's not becomes overwhelming. As a result, I decided to make a game out of it. Every time I read a tweet by Donald Trump, I try to guess whether it is a tweet actually made by the president himself, or just a parody account just trying to get some retweets. This game turns out to be quite challenging and fun! I made this bot so I could play this game forever and to have other people hop on the enjoyment too.
 
